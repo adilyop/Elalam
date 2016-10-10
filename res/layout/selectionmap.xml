@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="#ffffffff">
+
+    <FrameLayout
+        android:id="@+id/lyt"
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.28">
+
+        <FrameLayout
+            android:id="@+id/frameLayoutAfrique"
+            android:layout_width="474dp"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="320dp"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/libye"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="52dp"
+                    android:text="Libye"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/egypte"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/libye"
+                    android:layout_alignBottom="@+id/libye"
+                    android:layout_marginLeft="22dp"
+                    android:layout_toRightOf="@+id/libye"
+                    android:text="Egypte"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/tunisie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_toLeftOf="@+id/libye"
+                    android:text="Tunisie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/egypte"
+                    android:layout_toLeftOf="@+id/tunisie"
+                    android:text="Algerie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/maroc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tunisie"
+                    android:layout_toLeftOf="@+id/textView1"
+                    android:clickable="true"
+                    android:text="MAROC"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Soudan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/egypte"
+                    android:layout_below="@+id/egypte"
+                    android:layout_marginTop="56dp"
+                    android:text="Soudan"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Mauritanie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/libye"
+                    android:layout_marginTop="26dp"
+                    android:layout_toLeftOf="@+id/maroc"
+                    android:text="Mauritanie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Mali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Mauritanie"
+                    android:layout_toLeftOf="@+id/textView1"
+                    android:text="Mali"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Niger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/Mali"
+                    android:layout_alignBottom="@+id/Mali"
+                    android:layout_alignLeft="@+id/tunisie"
+                    android:text="Niger"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Tchad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/libye"
+                    android:layout_below="@+id/Niger"
+                    android:text="Tchad"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Senegal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/Mauritanie"
+                    android:layout_below="@+id/Mali"
+                    android:text="Senegal"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Somalie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/Soudan"
+                    android:layout_marginRight="36dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Somalie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Ethiopie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Soudan"
+                    android:layout_marginTop="15dp"
+                    android:layout_toLeftOf="@+id/Somalie"
+                    android:text="Ethiopie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Nigeria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/Niger"
+                    android:layout_below="@+id/Soudan"
+                    android:text="Nigeria"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Guinee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/Mauritanie"
+                    android:layout_below="@+id/Soudan"
+                    android:text="Guinée"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Liberia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Ethiopie"
+                    android:layout_toLeftOf="@+id/maroc"
+                    android:text="Liberia"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Cameroun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/Niger"
+                    android:layout_below="@+id/Liberia"
+                    android:text="Cameroun"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Gabon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/tunisie"
+                    android:layout_centerVertical="true"
+                    android:text="Gabon"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Tanzanie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Gabon"
+                    android:layout_marginTop="24dp"
+                    android:layout_toRightOf="@+id/Soudan"
+                    android:text="Tanzanie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Angola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Tanzanie"
+                    android:layout_marginTop="24dp"
+                    android:layout_toRightOf="@+id/Gabon"
+                    android:text="Angola"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Afriquedusud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_toRightOf="@+id/Nigeria"
+                    android:text="Afrique du Sud"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Namibie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/libye"
+                    android:layout_below="@+id/Angola"
+                    android:layout_marginTop="32dp"
+                    android:text="Namibie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Zambie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Angola"
+                    android:layout_toRightOf="@+id/Angola"
+                    android:text="Zambie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/madagaskar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/Namibie"
+                    android:layout_alignBottom="@+id/Namibie"
+                    android:layout_alignRight="@+id/Somalie"
+                    android:text="Madagascar"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/malawi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/Angola"
+                    android:layout_alignBottom="@+id/Angola"
+                    android:layout_toRightOf="@+id/Zambie"
+                    android:text="malawi"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/zimbabwe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/madagaskar"
+                    android:layout_toLeftOf="@+id/Tanzanie"
+                    android:text="Zimbabwé"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="6dp" />
+
+                <TextView
+                    android:id="@+id/boutswana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/Namibie"
+                    android:layout_alignBottom="@+id/Namibie"
+                    android:layout_toRightOf="@+id/Tchad"
+                    android:text="Boutswana"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="6dp" />
+
+                <TextView
+                    android:id="@+id/mozambique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/zimbabwe"
+                    android:layout_toRightOf="@+id/zimbabwe"
+                    android:text="Mozambique"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="6dp" />
+
+                <TextView
+                    android:id="@+id/swaziland"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Afriquedusud"
+                    android:layout_marginBottom="14dp"
+                    android:layout_toLeftOf="@+id/Ethiopie"
+                    android:text="Swaziland"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="6dp" />
+
+                <TextView
+                    android:id="@+id/kenya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Tanzanie"
+                    android:layout_alignRight="@+id/Tanzanie"
+                    android:text="Kenya"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/comoros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/malawi"
+                    android:layout_toRightOf="@+id/Ethiopie"
+                    android:text="Comoros"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="6dp" />
+
+                <TextView
+                    android:id="@+id/centreafrique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Liberia"
+                    android:layout_toRightOf="@+id/Nigeria"
+                    android:text="Centre d&apos;afrique"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/djiboti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Soudan"
+                    android:layout_toRightOf="@+id/kenya"
+                    android:text="Djibouti"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/erytherie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/Ethiopie"
+                    android:layout_below="@+id/Niger"
+                    android:text="Erythérie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/burkina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Guinee"
+                    android:layout_alignLeft="@+id/Mali"
+                    android:text="Burkina"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/serraleone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/centreafrique"
+                    android:layout_alignBottom="@+id/centreafrique"
+                    android:layout_alignRight="@+id/Senegal"
+                    android:text="Sierra Leone"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/ghana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/burkina"
+                    android:layout_below="@+id/serraleone"
+                    android:text="Ghana"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/congo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Tanzanie"
+                    android:layout_toLeftOf="@+id/Zambie"
+                    android:text="Congo"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/congodemo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/Tanzanie"
+                    android:layout_alignBottom="@+id/Tanzanie"
+                    android:layout_toLeftOf="@+id/malawi"
+                    android:text="Congo demo"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/ouganda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/malawi"
+                    android:layout_below="@+id/Somalie"
+                    android:text="Ouganda"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="6dp" />
+
+                <TextView
+                    android:id="@+id/cotedivoire"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/maroc"
+                    android:layout_alignTop="@+id/serraleone"
+                    android:text="Ivoire"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="6dp" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutAsie"
+            android:layout_width="474dp"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/Chine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="125dp"
+                    android:text="Chine"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/Inde"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/Chine"
+                    android:layout_below="@+id/Chine"
+                    android:layout_marginRight="49dp"
+                    android:layout_marginTop="32dp"
+                    android:text="Inde"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/Japon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Inde"
+                    android:layout_marginLeft="130dp"
+                    android:layout_toRightOf="@+id/Chine"
+                    android:text="Japon"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/Indonisie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_toRightOf="@+id/Inde"
+                    android:text="Indonisie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/mongolie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Chine"
+                    android:layout_marginBottom="38dp"
+                    android:layout_toRightOf="@+id/Chine"
+                    android:text="Mongolie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/philippines"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Inde"
+                    android:layout_marginTop="34dp"
+                    android:layout_toRightOf="@+id/Indonisie"
+                    android:text="Philippines"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/kazakhstan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/mongolie"
+                    android:layout_alignRight="@+id/Inde"
+                    android:text="Kazakhstan"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/taiwan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/Inde"
+                    android:layout_alignBottom="@+id/Inde"
+                    android:layout_alignLeft="@+id/philippines"
+                    android:text="Taïwan"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/sirilanka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/Inde"
+                    android:layout_below="@+id/philippines"
+                    android:text="Siri Lanka"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/pakistan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/taiwan"
+                    android:layout_toLeftOf="@+id/Inde"
+                    android:text="Pakistan"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/afghanistan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Inde"
+                    android:layout_alignRight="@+id/pakistan"
+                    android:text="Afghanistan"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/malaisie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sirilanka"
+                    android:layout_toRightOf="@+id/Inde"
+                    android:text="Malaisie"
+                    android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="10dp" android:textColor="#ff000000"/>
+
+                <TextView
+                    android:id="@+id/laos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/malaisie"
+                    android:layout_below="@+id/taiwan"
+                    android:text="Laos"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="9dp" />
+
+                <TextView
+                    android:id="@+id/vietnam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/sirilanka"
+                    android:layout_toRightOf="@+id/laos"
+                    android:text="Viêt Nam"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/tailande"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/vietnam"
+                    android:layout_toRightOf="@+id/sirilanka"
+                    android:text="Taïlande"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/nepal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/pakistan"
+                    android:layout_alignRight="@+id/sirilanka"
+                    android:text="Népal"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/coreesud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/Japon"
+                    android:layout_alignLeft="@+id/taiwan"
+                    android:layout_alignRight="@+id/taiwan"
+                    android:text="Corée Sud"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/coreenord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/coreesud"
+                    android:layout_alignLeft="@+id/coreesud"
+                    android:layout_alignRight="@+id/coreesud"
+                    android:layout_alignTop="@+id/mongolie"
+                    android:text="Corée Nord"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/turkmanistan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/coreenord"
+                    android:layout_alignParentLeft="true"
+                    android:text="Turkmanistan"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/kirghizistan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/turkmanistan"
+                    android:layout_alignRight="@+id/kazakhstan"
+                    android:text="Kirghizistan"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutEurope"
+            android:layout_width="474dp"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/Espagne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="36dp"
+                    android:text="Espagne"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Portugale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignTop="@+id/Espagne"
+                    android:layout_marginTop="14dp"
+                    android:text="Portugale"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/France"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Espagne"
+                    android:layout_marginBottom="54dp"
+                    android:layout_toRightOf="@+id/Espagne"
+                    android:text="France"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Allemagne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/France"
+                    android:layout_marginBottom="31dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@+id/France"
+                    android:text="Allemagne"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Pologne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/Allemagne"
+                    android:layout_alignBottom="@+id/Allemagne"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toRightOf="@+id/Allemagne"
+                    android:text="Pologne"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Ukraine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/moldovie"
+                    android:layout_below="@+id/Pologne"
+                    android:layout_centerHorizontal="true"
+                    android:text="Ukraine"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Turque"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/Portugale"
+                    android:layout_alignBottom="@+id/Portugale"
+                    android:layout_alignRight="@+id/Ukraine"
+                    android:text="Turque"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Finlande"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="91dp"
+                    android:layout_toLeftOf="@+id/Turque"
+                    android:text="Finlande"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Suede"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Finlande"
+                    android:layout_toRightOf="@+id/Allemagne"
+                    android:text="Suede"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Norvege"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/Allemagne"
+                    android:layout_below="@+id/Suede"
+                    android:text="Norvége"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Danmark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Allemagne"
+                    android:layout_alignLeft="@+id/Allemagne"
+                    android:layout_marginBottom="33dp"
+                    android:text="Damark"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Russie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Danmark"
+                    android:layout_marginLeft="14dp"
+                    android:layout_toRightOf="@+id/Ukraine"
+                    android:text="Russie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/Italie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Espagne"
+                    android:layout_alignRight="@+id/Allemagne"
+                    android:layout_marginBottom="18dp"
+                    android:text="Italie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/belaroussie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/Ukraine"
+                    android:layout_centerVertical="true"
+                    android:text="Bélaroussie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/estonie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/belaroussie"
+                    android:layout_below="@+id/Norvege"
+                    android:text="Estonie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/lettonie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/Russie"
+                    android:layout_alignBottom="@+id/Russie"
+                    android:layout_alignRight="@+id/estonie"
+                    android:text="Lettonie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/littuanie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/belaroussie"
+                    android:layout_alignLeft="@+id/Finlande"
+                    android:text="Littuanie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/irlande"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Allemagne"
+                    android:layout_alignParentLeft="true"
+                    android:text="Irlande"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/uk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/Espagne"
+                    android:layout_below="@+id/littuanie"
+                    android:text="UK"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/paysbas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/irlande"
+                    android:layout_alignBottom="@+id/irlande"
+                    android:layout_toLeftOf="@+id/Danmark"
+                    android:text="Pays-bas"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/moldovie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/France"
+                    android:layout_alignRight="@+id/Ukraine"
+                    android:text="Moldovie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/roumanie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Italie"
+                    android:layout_alignTop="@+id/France"
+                    android:layout_toRightOf="@+id/Pologne"
+                    android:gravity="center"
+                    android:text="Roumanie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/bulgarie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/Italie"
+                    android:layout_alignBottom="@+id/Italie"
+                    android:layout_alignLeft="@+id/lettonie"
+                    android:text="Bulgarie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/grece"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/Turque"
+                    android:layout_alignBottom="@+id/Turque"
+                    android:layout_toLeftOf="@+id/bulgarie"
+                    android:text="Grece"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/suisse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/France"
+                    android:layout_alignBottom="@+id/France"
+                    android:layout_toLeftOf="@+id/Italie"
+                    android:text="Suisse"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/belgique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Pologne"
+                    android:layout_toLeftOf="@+id/Danmark"
+                    android:text="Belgique"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/tcheque"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/Suede"
+                    android:layout_below="@+id/belgique"
+                    android:text="Tchéque"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/autriche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/suisse"
+                    android:layout_alignTop="@+id/moldovie"
+                    android:layout_toRightOf="@+id/Norvege"
+                    android:gravity="center"
+                    android:text="Autriche"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/albanie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Italie"
+                    android:layout_toRightOf="@+id/tcheque"
+                    android:text="Albanie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/macdonie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/albanie"
+                    android:layout_toRightOf="@+id/Pologne"
+                    android:text="Macdonie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/croitie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/roumanie"
+                    android:layout_alignRight="@+id/autriche"
+                    android:text="Croitie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/slovaque"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tcheque"
+                    android:layout_toRightOf="@+id/autriche"
+                    android:text="Slovaque"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/yougoslavie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/croitie"
+                    android:layout_alignBottom="@+id/croitie"
+                    android:layout_toRightOf="@+id/croitie"
+                    android:text="Yougoslavie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/slovenie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/autriche"
+                    android:layout_toRightOf="@+id/Danmark"
+                    android:text="Slovénie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutOceanie"
+            android:layout_width="474dp"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/Australie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="77dp"
+                    android:text="Australie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/nouvelleguinee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/Australie"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="57dp"
+                    android:layout_marginTop="66dp"
+                    android:text="Nouvelle Guinée"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/fidji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Australie"
+                    android:layout_marginBottom="34dp"
+                    android:layout_marginLeft="41dp"
+                    android:layout_toRightOf="@+id/nouvelleguinee"
+                    android:text="Ile Fidji"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/nvlzilande"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/fidji"
+                    android:layout_below="@+id/Australie"
+                    android:layout_marginTop="58dp"
+                    android:layout_toRightOf="@+id/nouvelleguinee"
+                    android:text="Nouvelle Zélande"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutAmerNord"
+            android:layout_width="474dp"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/Canada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="153dp"
+                    android:text="Canada"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/USA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/Canada"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="48dp"
+                    android:text="Etat Unis D&apos;Amérique"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/Mexique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/Canada"
+                    android:layout_marginBottom="34dp"
+                    android:text="Mexique"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutAmerSud"
+            android:layout_width="474dp"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/Bresile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="193dp"
+                    android:layout_marginTop="108dp"
+                    android:text="Brésil"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/Argentine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/Bresile"
+                    android:layout_below="@+id/Bresile"
+                    android:layout_marginRight="46dp"
+                    android:layout_marginTop="113dp"
+                    android:text="Argentine"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/suriname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/Bresile"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="42dp"
+                    android:text="Suriname"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/perou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/Bresile"
+                    android:layout_toLeftOf="@+id/Argentine"
+                    android:text="Pérou"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="9dp" />
+
+                <TextView
+                    android:id="@+id/equateur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/suriname"
+                    android:layout_toLeftOf="@+id/perou"
+                    android:text="Equateur"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="9dp" android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/colombie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/suriname"
+                    android:layout_alignBottom="@+id/suriname"
+                    android:layout_toRightOf="@+id/equateur"
+                    android:text="Colombie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="9dp"/>
+
+                <TextView
+                    android:id="@+id/paraguay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/suriname"
+                    android:layout_below="@+id/Bresile"
+                    android:layout_marginTop="28dp"
+                    android:text="Paraguay"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="9dp" />
+
+                <TextView
+                    android:id="@+id/bolovie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Bresile"
+                    android:layout_toRightOf="@+id/colombie"
+                    android:text="Bolivie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="9dp" />
+
+                <TextView
+                    android:id="@+id/chili"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/bolovie"
+                    android:text="Chili"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/venezuela"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/colombie"
+                    android:layout_toLeftOf="@+id/paraguay"
+                    android:text="Vénézuela"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:id="@+id/uruguy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/Bresile"
+                    android:layout_alignTop="@+id/Argentine"
+                    android:text="Uruguay"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="9dp" android:layout_marginTop="-35dp"/>
+
+            </RelativeLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutMoyOrient"
+            android:layout_width="474dp"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/Saoudi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="120dp"
+                    android:layout_marginLeft="124dp"
+                    android:text="Saoudie Arabie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/Yemen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/Saoudi"
+                    android:layout_marginBottom="45dp"
+                    android:text="Yemen"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/oman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/Saoudi"
+                    android:layout_marginLeft="49dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_toRightOf="@+id/Saoudi"
+                    android:text="Oman"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/Iraq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Saoudi"
+                    android:layout_marginBottom="88dp"
+                    android:layout_toLeftOf="@+id/Yemen"
+                    android:text="Iraq"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/Irane"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/Iraq"
+                    android:layout_toRightOf="@+id/Saoudi"
+                    android:text="Iran"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000" />
+
+                <TextView
+                    android:id="@+id/kuweit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Saoudi"
+                    android:layout_marginBottom="45dp"
+                    android:layout_toLeftOf="@+id/Irane"
+                    android:text="Kuweit"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/emirates"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/Saoudi"
+                    android:layout_marginLeft="-20dp"
+                    android:layout_marginTop="-10dp"
+                    android:layout_toRightOf="@+id/Irane"
+                    android:text="Emirates"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/chypre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Iraq"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="46dp"
+                    android:text="Chypre"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/Palestine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/Irane"
+                    android:layout_alignLeft="@+id/chypre"
+                    android:text="Palestine"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/syrie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/chypre"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/Palestine"
+                    android:text="Syrie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/liban"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/Palestine"
+                    android:layout_toRightOf="@+id/chypre"
+                    android:text="Liban"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/jordanie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/kuweit"
+                    android:layout_alignLeft="@+id/syrie"
+                    android:text="Jordanie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/azerabijane"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/syrie"
+                    android:layout_marginBottom="36dp"
+                    android:layout_toLeftOf="@+id/emirates"
+                    android:text="Azerabijane"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/georgie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/azerabijane"
+                    android:layout_alignLeft="@+id/Iraq"
+                    android:text="Georgie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/armenie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/syrie"
+                    android:layout_alignLeft="@+id/georgie"
+                    android:text="Armenie"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" android:layout_marginBottom="30dp"/>
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayoutAmerCentral"
+            android:layout_width="474dp"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/cuba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="174dp"
+                    android:layout_marginTop="108dp"
+                    android:text="Cuba"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/jamaique"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/cuba"
+                    android:layout_below="@+id/cuba"
+                    android:layout_marginTop="30dp"
+                    android:text="Jamaïque"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/haiti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cuba"
+                    android:layout_centerHorizontal="true"
+                    android:text="Haïti"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/dominicaine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/jamaique"
+                    android:layout_toRightOf="@+id/haiti"
+                    android:text="Dominicaine"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/belize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/jamaique"
+                    android:layout_alignBottom="@+id/jamaique"
+                    android:layout_marginRight="32dp"
+                    android:layout_toLeftOf="@+id/jamaique"
+                    android:text="Belize"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/panama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/jamaique"
+                    android:layout_marginBottom="68dp"
+                    android:text="Panama"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/costarica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/panama"
+                    android:layout_toLeftOf="@+id/panama"
+                    android:text="Costa Rica"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/guatimala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/costarica"
+                    android:layout_marginBottom="30dp"
+                    android:layout_toLeftOf="@+id/costarica"
+                    android:text="Guatimala"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/honduras"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/guatimala"
+                    android:layout_toLeftOf="@+id/panama"
+                    android:text="Honduras"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/nicaragua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/costarica"
+                    android:layout_alignRight="@+id/panama"
+                    android:text="Nicaragua"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/selvador"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/nicaragua"
+                    android:layout_alignRight="@+id/belize"
+                    android:text="Selvador"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#ff000000"
+                    android:textSize="10dp" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/precedent"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_revert" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/europe" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/asie" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ameriquenord" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ameriquecentr" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.00"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/afrique" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/moyenorient" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/oceanie" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ameriquesud" />
+    </LinearLayout>
+
+</LinearLayout>
